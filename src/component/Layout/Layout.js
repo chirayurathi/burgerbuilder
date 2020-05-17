@@ -4,7 +4,7 @@ import SideDrawer from '../Navigation/SideDrawer/SideDrawer'
 import Styles from './Layout.module.css'
 class Layout extends Component{
     state={
-        showSide:true
+        showSide:false
     }
     sideCloseHandler = ()=>{
         this.setState({showSide:false})

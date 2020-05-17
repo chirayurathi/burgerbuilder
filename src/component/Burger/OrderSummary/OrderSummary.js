@@ -12,8 +12,8 @@ const OrderSummary = (props)=>{
                 {order}
             </ul>
             <p>would you like to continue?</p>
-            <Button type="Danger" clicked={props.back}>CANCEL</Button>
-            <Button type="Success" clicked={props.continue}>CONTINUE</Button>
+            <Button clicked={props.back} type="Danger">CANCEL</Button>
+            <Button clicked={props.continue} type="Success">CONTINUE</Button>
         </Fragment>
     ) 
 }
